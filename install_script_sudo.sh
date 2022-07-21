@@ -9,9 +9,13 @@ sudo mkdir /etc/ssl/nginx
 cd /etc/ssl/nginx
 echo -e "Getting NGINX-Plus .crt and .key\n"
 sleep 5s
-sudo wget <ask instructor for URL>
+echo -e "Enter the nginx-repo.crt given to you"
+read repoCrt
+sudo wget $repoCrt
 sleep 5s
-sudo wget <ask instructor for URL>
+echo -e "Enter the nginx-repo.key given to you"
+read repoKey
+sudo wget $repoKey
 sleep 5s
 cd /etc/ssl/nginx
 echo -e "Output NGINX cert expiry for you to verify\n"
