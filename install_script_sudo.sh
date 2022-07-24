@@ -37,4 +37,10 @@ sudo yum install nginx-plus-module-prometheus -y
 sleep 5s
 echo -e "Installed NGINX Dynamic Modules"
 ls /etc/nginx/modules
-echo "Configure your SELinux or set to disabled in /etc/selinux/config"
+echo -e "Reminder: Configure your SELinux or set to disabled in /etc/selinux/config\n"
+sleep 2s
+echo -e "Downloading NGINX Workshop Files - Not part of NGINX installation\n"
+sudo mkdir /etc/nginx/conf.d/workshop_files
+sleep 2s
+sudo wget https://www.dropbox.com/sh/m937i9dqwvhv60s/AABbd7WdEdL6LoLyGS-Aljj0a
+echo -e "\nInstallation Script Complete, Enjoy!\n"
