@@ -41,4 +41,5 @@ echo -e "Reminder: Configure your SELinux or set to disabled in /etc/selinux/con
 sleep 2s
 yum install unzip
 mkdir /etc/nginx/conf.d/workshop_files
-echo -e "\nInstallation Script Complete, Enjoy!\n”
+wget https://www.dropbox.com/sh/m937i9dqwvhv60s/AABbd7WdEdL6LoLyGS-Aljj0a
+echo -e "Installation Script Complete, Enjoy!\n"
