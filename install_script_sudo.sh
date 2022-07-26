@@ -40,8 +40,6 @@ ls /etc/nginx/modules
 echo -e "Reminder: Configure your SELinux or set to disabled in /etc/selinux/config\n"
 sleep 2s
 echo -e "Downloading NGINX Workshop Files - Not part of NGINX installation\n"
-sudo mkdir /etc/nginx/conf.d/workshop_files
-sleep 2s
 yum install unzip
-mkdir /etc/nginx/conf.d/workshop_files
+sudo mkdir /etc/nginx/conf.d/workshop_files
 echo -e "\nInstallation Script Complete, Enjoy!\n”
