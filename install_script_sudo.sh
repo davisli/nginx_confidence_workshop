@@ -42,10 +42,6 @@ sleep 2s
 echo -e "Downloading NGINX Workshop Files - Not part of NGINX installation\n"
 sudo mkdir /etc/nginx/conf.d/workshop_files
 sleep 2s
-echo -e “Downloading NGINX Workshop Files – Not part of NGINX installation\n”
-sudo yum install unzip
-sudo mkdir /etc/nginx/conf.d/workshop_files
-sudo wget https://www.dropbox.com/sh/m937i9dqwvhv60s/AABbd7WdEdL6LoLyGS-Aljj0a
-cd /etc/nginx/conf.d/workshop_files
-unzip AABbd7WdEdL6LoLyGS-Aljj0a
+yum install unzip
+mkdir /etc/nginx/conf.d/workshop_files
 echo -e "\nInstallation Script Complete, Enjoy!\n”
