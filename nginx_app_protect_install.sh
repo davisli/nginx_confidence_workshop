@@ -1,3 +1,5 @@
+#! /bin/sh
+
 sudo yum update
 sudo yum install ca-certificates wget yum-utils
 sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-7.4.repo
