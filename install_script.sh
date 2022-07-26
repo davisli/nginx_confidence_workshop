@@ -39,10 +39,10 @@ echo -e "Installed NGINX Dynamic Modules"
 ls /etc/nginx/modules
 echo -e "Reminder: Configure your SELinux or set to disabled in /etc/selinux/config\n"
 sleep 2s
-echo -e "Downloading NGINX Workshop Files - Not part of NGINX installation\n"
+echo -e “Downloading NGINX Workshop Files – Not part of NGINX installation\n”
 yum install unzip
 mkdir /etc/nginx/conf.d/workshop_files
-sleep 2s
 wget https://www.dropbox.com/sh/m937i9dqwvhv60s/AABbd7WdEdL6LoLyGS-Aljj0a
+cd /etc/nginx/conf.d/workshop_files
 unzip AABbd7WdEdL6LoLyGS-Aljj0a
 echo -e "\nInstallation Script Complete, Enjoy!\n”
