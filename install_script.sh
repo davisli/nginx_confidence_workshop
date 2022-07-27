@@ -39,7 +39,7 @@ echo -e "Installed NGINX Dynamic Modules"
 ls /etc/nginx/modules
 echo -e "Reminder: Configure your SELinux or set to disabled in /etc/selinux/config\n"
 sleep 2s
-yum install unzip
+yum install unzip -y
 mkdir /etc/nginx/conf.d/workshop_files
 cd /etc/nginx/conf.d/workshop_files
 wget https://www.dropbox.com/sh/m937i9dqwvhv60s/AABbd7WdEdL6LoLyGS-Aljj0a
