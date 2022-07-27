@@ -5,6 +5,7 @@ sudo yum install ca-certificates wget yum-utils
 sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/nginx-plus-7.4.repo
 sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/app-protect-7.repo
 sudo wget -P /etc/yum.repos.d https://www.dropbox.com/s/rpwr9sbzezmm02p/dependencies.repo
+sudo wget -P /etc/yum.repos.d https://cs.nginx.com/static/files/app-protect-security-updates-7.repo
 sleep 2s
 sudo yum install app-protect -y
 echo -e "\nListing the additional NAP modules\n"
